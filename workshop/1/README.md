@@ -7,5 +7,5 @@
 ${{ secrets.DIGITAL_OCEAN_TOKEN }}
 ```
 
-* Opprett repo under motoren-site, lag en hello world app (valgfri teknologi/smak), bygg det med docker, push det til docker repo. 
+* Opprett repo under motoren-site, lag en hello world app (valgfri teknologi/smak), bygg det med docker, push det til docker repo: (registry.digitalocean.com/olsen). 
 Sjå [.github/workflows/main.yml](.github/workflows/main.yml) og https://github.com/motoren-site/github-actions for hjelp.
