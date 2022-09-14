@@ -15,7 +15,7 @@
 
 * Kl 11:30-12:30 **LUNSJ**
 
-* 12:35 Oppgaver 
+* 12:35 [Oppgaver](https://github.com/motoren-site/do-k8s-github-action-workshop/blob/main/workshop/README.md) 
 
 
 
