@@ -1,16 +1,22 @@
 # do-k8s-github-action-workshop
 
-## STEP 1
-* Presentasjon av Konsepter i Kubernetes
 
-## STEP 2
-* Run interactive tutorial https://kubernetes.io/docs/tutorials/kubernetes-basics/
+* Kl 0830 **Presentasjon av Konsepter i Kubernetes** [LINK](https://docs.google.com/presentation/d/1Da59nTxS1dfXeyDh2plDonfevjxh5FIUYwxV1YPyedA/edit?usp=sharing)
 
-## STEP 3
-* Presentasjon av Kubernetes cluster i Digital Ocean
+* ca kl 0900 Interaktiv opplæring https://kubernetes.io/docs/tutorials/kubernetes-basics/
 
-## STEP 4
-* Presentasjon av Github actions
+* kl 10:00 15 min Pause 
 
-## STEP 5
-* Hands on, deploy til Do Kubernetes cluster
+* 10:15 Kort Presentasjon av K8s cluster og K8s Dashboard i Digital Ocean
+
+* 10:30 Presentasjon av Github actions [https://github.com/motoren-site/github-actions](https://github.com/motoren-site/github-actions)
+
+* 10:45 Presentasjon av ønsket flyt [Google Presentasjon](https://docs.google.com/presentation/d/1Qx5ONluvb3rvt7XIibHzu93Ubj4-nmoCFBp7QWhctY0/edit?usp=sharing)
+
+* Kl 11:30-12:30 **LUNSJ**
+
+* 12:35 Oppgaver 
+
+
+
+
