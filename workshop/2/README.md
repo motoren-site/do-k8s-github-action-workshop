@@ -6,7 +6,12 @@
 
 * I denne oppgava skal du deploye appen til K8S clusteret på DO.
 
-* Du vill trenge en deployment.yml fil som definerer navn på app, navn på container, portnummer og antall "replicas".
+* Du vill trenge en deployment.yml fil som definerer navn på app, navn på container, portnummer og antall "replicas" (Anbefalt 2-3).
+
+* Namespace i yml-fila må være apps, slik:
+```
+  namespace: apps
+```
 
 Her er et eksempel på en deployment.yml fil for ngnix
 
