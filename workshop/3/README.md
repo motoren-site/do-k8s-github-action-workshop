@@ -1,6 +1,6 @@
 ## Oppgave 3
 
-* Gratulerer! Du er flink! 
+* Gratulerer! Du er flink! :smile::smile::smile:
 
 * I denne oppgava skal du eksponere appen din for omverden, på det store nettet! Slik vill alle kunne glede seg ove den fine hello-world appen du lagde i Oppgave 1
 
@@ -44,4 +44,13 @@ spec:
             name: test
             port:
               number: 80
+```
+
+Prøv å eksponer appen med følgande URL: app.motoren.site/DITT_APP_NAVN (via Ingress)
+
+Du vill trenge dette i ingress fila for å få det til:
+```
+annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/rewrite-target: /$2
 ```
