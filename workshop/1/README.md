@@ -1,5 +1,3 @@
-## Step 1 Deploy to apps.motoren.site/ditt-navn
+## Oppgave 1
 
-## Step 2 Deploy to ditt-navn.motoren.site
-
-## Step 3
+* Opprett prosjekt, bygg det med docker, push det til docker repo. Sjå [main.yml](.github/main.yml) for hjelp.
