@@ -41,3 +41,4 @@ spec:
 ```
 
 I Github Action må du bruke matootie/dokube@v1.3.4, her må du sette clusterName til: **k8s-miles**
+og personalAccessToken til ${{ secrets.DIGITAL_OCEAN_TOKEN }}
