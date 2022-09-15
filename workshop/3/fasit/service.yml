@@ -1,0 +1,16 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: go-app
+  namespace: apps
+  labels:
+    k8s-app: go-app
+spec:
+  ports:
+  - port: 80
+    targetPort: 8080
+    protocol: TCP
+  selector:
+    k8s-app: go-app
+  type: ClusterIP
+  ipFamilyPolicy: SingleStack

@@ -1,0 +1,26 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: go-app
+  namespace: apps
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      k8s-app: go-app
+  template:
+    metadata:
+      name: go-app
+      labels:
+        k8s-app: go-app
+    spec:
+      containers:
+        - name: go-app
+          image: <IMAGE>
+          imagePullPolicy: Always
+      restartPolicy: Always
+      terminationGracePeriodSeconds: 30
+      dnsPolicy: ClusterFirst
+  strategy:
+    type: RollingUpdate
+  minReadySeconds: 5
