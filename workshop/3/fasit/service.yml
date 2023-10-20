@@ -13,4 +13,3 @@ spec:
   selector:
     k8s-app: go-app
   type: ClusterIP
-  ipFamilyPolicy: SingleStack
