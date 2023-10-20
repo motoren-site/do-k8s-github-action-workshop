@@ -1,6 +1,6 @@
 # Oppgave 2
 
-* Om du har fullført oppgave 1 skal appen ligge i container-registeret registry.digitalocean.com/olsen (Sjekk med Richard)
+* Om du har fullført oppgave 1 skal appen ligge i container-registeret registry.digitalocean.com/containers (Sjekk med Richard)
 
 * K8s clusteret på DO har tilgang til dette container registeret. Så lenge containeren ligger der, kan en deployment i K8S laste ned containeren derifra.
 
