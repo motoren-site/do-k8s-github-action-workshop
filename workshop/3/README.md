@@ -33,7 +33,7 @@ metadata:
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
-  ingressClassName: nginx-example
+  ingressClassName: nginx
   rules:
   - http:
       paths:
@@ -51,6 +51,5 @@ Prøv å eksponer appen med følgande URL: app.motoren.site/DITT_APP_NAVN (via I
 Du vill trenge dette i ingress fila for å få det til:
 ```
 annotations:
-    kubernetes.io/ingress.class: nginx
     nginx.ingress.kubernetes.io/rewrite-target: /$2
 ```
