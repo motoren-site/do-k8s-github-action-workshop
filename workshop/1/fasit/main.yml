@@ -18,7 +18,7 @@ jobs:
         password: ${{ secrets.DIGITAL_OCEAN_TOKEN }}
 
     - name: Build latest
-      run: docker build -t registry.digitalocean.com/olsen/go-app:$(echo $GITHUB_SHA | head -c7) .
+      run: docker build -t registry.digitalocean.com/containers/go-app:$(echo $GITHUB_SHA | head -c7) .
 
     - name: Push to Digital Ocean Registry
-      run: docker push registry.digitalocean.com/olsen/go-app:$(echo $GITHUB_SHA | head -c7)
+      run: docker push registry.digitalocean.com/containers/go-app:$(echo $GITHUB_SHA | head -c7)
