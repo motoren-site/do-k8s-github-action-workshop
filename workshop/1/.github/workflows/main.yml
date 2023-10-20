@@ -20,4 +20,4 @@ jobs:
     - name: Build latest
       run: docker build -t registry.digitalocean.com/olsen/YOUR_APP:$(echo $GITHUB_SHA | head -c7) .
 
-    ##Add step for pusing to registry.digitalocean.com/olsen
+    ##Add step for pusing to registry.digitalocean.com/containers
