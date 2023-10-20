@@ -46,7 +46,7 @@ spec:
               number: 80
 ```
 
-Prøv å eksponer appen med følgande URL: app.motoren.site/DITT_APP_NAVN (via Ingress)
+Prøv å eksponer appen med følgande URL: app.ostepopp.site/DITT_APP_NAVN (via Ingress)
 
 Du vill trenge dette i ingress fila for å få det til:
 ```
