@@ -47,5 +47,5 @@ jobs:
     - name: Remove old containers
       uses: ripplr-io/docr-image-remove@v1
       with:
-        image_repository: registry.digitalocean.com/olsen/go-app
+        image_repository: registry.digitalocean.com/containers/go-app
         buffer_size: 2
