@@ -18,6 +18,6 @@ jobs:
         password: ${{ secrets.DIGITAL_OCEAN_TOKEN }}
 
     - name: Build latest
-      run: docker build -t registry.digitalocean.com/olsen/YOUR_APP:$(echo $GITHUB_SHA | head -c7) .
+      run: docker build -t registry.digitalocean.com/containers/YOUR_APP:$(echo $GITHUB_SHA | head -c7) .
 
     ##Add step for pusing to registry.digitalocean.com/containers
