@@ -2,7 +2,7 @@
 
 :alarm_clock: Alle tider er ca. tider
 
-* 🕜 Kl 13:30 **Presentasjon av Konsepter i Kubernetes** [Link](https://docs.google.com/presentation/d/1Da59nTxS1dfXeyDh2plDonfevjxh5FIUYwxV1YPyedA/edit?usp=sharing)
+* Kl 13:30 **Presentasjon av Konsepter i Kubernetes** [Link](https://docs.google.com/presentation/d/1Da59nTxS1dfXeyDh2plDonfevjxh5FIUYwxV1YPyedA/edit?usp=sharing)
 
 * Kl 13:50 **Interaktiv opplæring, Kubernetes Basic** [Link](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
 
