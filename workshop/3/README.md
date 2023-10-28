@@ -13,6 +13,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: nginx-service
+  namespace: apps
 spec:
   selector:
     app.kubernetes.io/name: proxy
@@ -30,6 +31,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: minimal-ingress
+  namespace: apps
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
