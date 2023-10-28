@@ -35,7 +35,8 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - http:
+    - host: app.ostepopp.site
+      http:
       paths:
       - path: /testpath
         pathType: Prefix
