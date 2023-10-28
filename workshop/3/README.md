@@ -16,7 +16,7 @@ metadata:
   namespace: apps
 spec:
   selector:
-    app.kubernetes.io/name: proxy
+    k8s-app: hello-world
   ports:
   - name: name-of-service-port
     protocol: TCP
